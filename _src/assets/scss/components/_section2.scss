@@ -36,8 +36,8 @@
 }
 
 .box-go:hover {
-    background-color: silver;
-    border:1px dotted black ;
+    background-color: $color-azul;
+    border:1px dotted $color-azul-oscuro;
     border-radius: 50%;
     transition: background-color ease 0.5s, border-radius ease 0.8s;
 }
