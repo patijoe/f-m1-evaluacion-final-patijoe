@@ -1,0 +1,48 @@
+.section2 {
+    margin: 0 15px;
+}
+.tips {
+    font-family: $font-family-roboto;
+    font-size: 14px;
+    line-height: 30px;
+    color: $color-azul;
+    margin-top: 30px;
+}
+.title2 {
+    font-family: $font-family-slab;
+    text-transform: capitalize;
+    font-size: 24px;
+    line-height: 30px;
+    color: $color-h2;
+    margin: 1px 0 15px;
+}
+
+.section2-text {
+    margin: 0;
+    font-family: $font-family-roboto;
+    font-size: 18px;
+    line-height: 30px;
+    color: $color-text-section2;
+}
+.box-go {
+    width: 76px;
+    height: 45px;
+    border: 2px solid $color-orange;
+    border-radius: 22.5px;
+    margin: 30px 0 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-go:hover {
+    background-color: mix(grey, orange, 20);
+    transition: background-color ease 1s;
+}
+
+.go {
+    font-family: $font-family-roboto-medium;
+    text-decoration: none;
+    color: $color-orange;
+    
+}
