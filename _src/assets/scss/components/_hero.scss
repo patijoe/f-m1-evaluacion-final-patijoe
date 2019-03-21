@@ -2,9 +2,13 @@
     margin-bottom: 30px;
 }
 .hero-imagen {
+    min-height: 100vh;
+    background-image: url(../../../assets/images/cover.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .hero-picture {
-    height: 568px;
+    // height: 568px;
 }
 
 .lema{
