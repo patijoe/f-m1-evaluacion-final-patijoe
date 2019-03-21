@@ -36,8 +36,10 @@
 }
 
 .box-go:hover {
-    background-color: mix(grey, orange, 20);
-    transition: background-color ease 1s;
+    background-color: silver;
+    border:1px dotted black ;
+    border-radius: 50%;
+    transition: background-color ease 0.5s, border-radius ease 0.8s;
 }
 
 .go {
@@ -45,6 +47,11 @@
     text-decoration: none;
     font-size: 20px;
     line-height: 45px;
-    color: $color-orange;
-    
+    color: $color-orange;  
 }
+
+.go:hover {
+    color:black;
+    transition: color ease 0.3s;
+}
+
