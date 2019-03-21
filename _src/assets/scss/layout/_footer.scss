@@ -1,0 +1,64 @@
+.footer {
+    background-color: $background-color-footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {}
+
+.info_list {
+    list-style: none;
+    margin: 0;
+    padding: 60px 0 30px;
+    text-align: center;
+    
+}
+
+.link-item {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $font-family-roboto;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.sm {}
+
+.sm_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.link-sm {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $font-family-roboto;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.copy {
+    font-family: $font-family-roboto;
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 30px;
+    color: white;
+}
+
+.love {
+    font-family: $font-family-roboto;
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+    padding-bottom: 45px;
+}
+
+.icon {
+    color: $color-icon;
+    font-size: 14px;
+    line-height: 30px;
+}
