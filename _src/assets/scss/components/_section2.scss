@@ -3,6 +3,9 @@
     @media all and (min-width: 768px) {
         margin: 0 39px;
     }
+    @media all and (min-width: 1200px) {
+        margin: 0 275px;
+    }
 }
 .tips {
     font-family: $font-family-roboto;
@@ -10,6 +13,9 @@
     line-height: 30px;
     color: $color-azul;
     margin-top: 30px;
+    @media all and (min-width: 1200px) {
+        margin-top: 60px;
+    }
 }
 .title2-section2 {
     font-family: $font-family-slab;
@@ -36,6 +42,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media all and (min-width: 768px) {
+        width: 91px;
+    }
+    @media all and (min-width: 1200px) {
+        width: 160px;  
+    }
 }
 
 .box-go:hover {

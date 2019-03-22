@@ -3,6 +3,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 60px 0 45px;
+
+    @media all and (min-width: 768px) {
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
 }
 
 .info {}
@@ -10,9 +16,21 @@
 .info_list {
     list-style: none;
     margin: 0;
-    padding: 60px 0 30px;
     text-align: center;
     
+    @media all and (min-width: 768px) {
+        text-align: left;
+        padding: 0;
+    }
+
+    @media all and (min-width: 1200px) {
+        width: left;
+        padding: 0;
+    }
+}
+
+.info_list-item {
+
 }
 
 .link-item {
@@ -24,13 +42,39 @@
     line-height: 30px;
 }
 
-.sm {}
+.block {
+    width: auto;
+    border: 1px solid red;
+
+    @media all and (min-width: 768px) {
+        width: 210px;
+        text-align: left;
+    }
+
+    @media all and (min-width: 1200px) {
+        width: 160px;
+    }
+}
+
+.sm {
+    padding: 0 30px;
+}
 
 .sm_list {
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: center;
+
+    @media all and (min-width: 768px) {
+        text-align: left;
+        vertical-align: text-top;
+    }
+
+    @media all and (min-width: 1200px) {
+        text-align: left;
+        vertical-align: text-top;
+    }
 }
 .link-sm {
     color: white;
@@ -47,6 +91,22 @@
     line-height: 30px;
     padding-top: 30px;
     color: white;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media all and (min-width: 768px) {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    @media all and (min-width: 1200px) {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
 }
 
 .love {
