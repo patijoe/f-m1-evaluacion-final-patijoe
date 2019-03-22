@@ -1,18 +1,17 @@
 .hero {
     margin-bottom: 30px;
     height: 568px;
+
     @media all and (min-width: 768px) {
         height: 768px;
     }
 }
+
 .hero-imagen {
     min-height: 100%;
     background-image: url(../images/cover.jpg);
     background-position: center;
     background-size: cover;
-}
-.hero-picture {
-    // height: 568px;
 }
 
 .lema{
@@ -24,10 +23,12 @@
     top: 284px;
     left: 50%;
     transform: translate(-50%);
+
     @media all and (min-width: 768px) {
         top: 384px;
     }
 }
+
 .title1 {
     width: 290px;
     font-family: 'Roboto Slab', serif;
@@ -38,6 +39,7 @@
     margin: 0;
     padding-bottom: 10px;
     line-height: 55px;
+
     @media all and (min-width: 768px) {
         width: 690px;
         font-size: 80px;
@@ -51,6 +53,7 @@
         padding-bottom: 0;
     }
 }
+
 .text-sec {
     font-family: 'Roboto', sans-serif;
     color:white;
@@ -58,10 +61,12 @@
     margin: 0;
     padding: 0;
     text-align: center;
+
     @media all and (min-width: 768px) {
         font-size: 24px; 
     }
 }
+
 .circle {
     width: 50px;
     height: 50px;
@@ -71,15 +76,15 @@
     top: 470px;
     left: 50%;
     transform: translate(-50%);
+
     @media all and (min-width: 768px) {
         top: 678px;
     }
     @media all and (min-width: 1200px) {
         top: 710px;
     }
-    
-   
 }
+
 .hut {
     width: 20px;
     height: 12px;
@@ -89,4 +94,3 @@
     left: 50%;
     transform: translate(-50%, -50%)
 }
-// .imagen-hut {}

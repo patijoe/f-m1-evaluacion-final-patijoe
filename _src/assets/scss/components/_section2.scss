@@ -1,5 +1,6 @@
 .section2 {
     margin: 0 15px;
+
     @media all and (min-width: 768px) {
         margin: 0 39px;
     }
@@ -7,16 +8,19 @@
         margin: 0 275px;
     }
 }
+
 .tips {
     font-family: $font-family-roboto;
     font-size: 14px;
     line-height: 30px;
     color: $color-azul;
     margin-top: 30px;
+
     @media all and (min-width: 1200px) {
         margin-top: 60px;
     }
 }
+
 .title2-section2 {
     font-family: $font-family-slab;
     text-transform: capitalize;
@@ -33,6 +37,7 @@
     line-height: 30px;
     color: $color-text-section2;
 }
+
 .box-go {
     width: 76px;
     height: 45px;
@@ -42,6 +47,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
     @media all and (min-width: 768px) {
         width: 91px;
     }
