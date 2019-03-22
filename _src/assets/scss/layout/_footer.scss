@@ -159,8 +159,8 @@
   box-shadow: 0 2px 4px;
 
   animation-name: intro;
-  animation-duration: 2s; 
-  animation-iteration-count: 1;
+  animation-duration: 3s; 
+  animation-iteration-count: infinite;
   animation-timing-function: ease;
 
   @media all and (min-width:768px) {
@@ -176,11 +176,9 @@
 
 @keyframes intro {
   0% {
-    opacity: 0;
-    transform: scale(3) rotate(-150deg);
+    background-color: $color-azul;
   }
   100% {
-    opacity: 1;
-    transform: scale(1);
+    background-color: $color-azul-oscuro;
   }
 }
