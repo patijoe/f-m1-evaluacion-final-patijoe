@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   padding: 60px 0 45px;
+  position: relative;
 
   @media all and (min-width: 768px) {
     flex-direction: row;
@@ -142,4 +143,28 @@
   color: $color-icon;
   font-size: 14px;
   line-height: 30px;
+}
+
+
+.arrow {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 auto;
+  transform: translate(0, -185%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px;
+
+  @media all and (min-width:768px) {
+    position: absolute;
+    top: 60px;
+  }
+}
+
+.imagen-row {
+  width: 20.6px;
+  height: 24px;
 }
