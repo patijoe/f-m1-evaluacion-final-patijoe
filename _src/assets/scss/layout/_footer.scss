@@ -48,6 +48,7 @@
 
     @media all and (min-width: 768px) {
         width: 210px;
+        height: 150px;
         text-align: left;
     }
 
@@ -85,13 +86,6 @@
     line-height: 30px;
 }
 
-.copy {
-    font-family: $font-family-roboto;
-    font-size: 14px;
-    line-height: 30px;
-    padding-top: 30px;
-    color: white;
-}
 
 .end {
     display: flex;
@@ -109,12 +103,35 @@
     }
 }
 
+.copy {
+    font-family: $font-family-roboto;
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 30px;
+    color: white;
+
+    @media all and (min-width: 768px) {
+        padding-top: 0;
+    }
+
+    @media all and (min-width: 1200px) {
+        padding-top: 0;
+    }
+}
 .love {
     font-family: $font-family-roboto;
     font-size: 14px;
     line-height: 30px;
     color: white;
     padding-bottom: 45px;
+
+    @media all and (min-width: 768px) {
+        padding-bottom: 0;
+    }
+
+    @media all and (min-width: 1200px) {
+        padding-bottom: 0;
+    }
 }
 
 .icon {
