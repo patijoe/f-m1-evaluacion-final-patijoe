@@ -1,5 +1,6 @@
 .section3 {
-    background-color: $color-section3;   
+    background-color: $color-section3; 
+    padding: 0 15px;  
 }
 .title2 {}
 
@@ -29,6 +30,7 @@
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 45px;
     margin-bottom: 45px;
+
     @media all and (min-width: 768px) {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
@@ -41,6 +43,13 @@
 .reason {
     text-align: center;
     margin: 0 auto;
+    width: 180px;
+    @media all and (min-width: 768px) {
+        width: 212.3px;
+}
+@media all and (min-width: 1200px) {
+    width: 350px;
+}
 }
 
 
