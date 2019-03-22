@@ -158,6 +158,11 @@
   align-items: center;
   box-shadow: 0 2px 4px;
 
+  animation-name: intro;
+  animation-duration: 2s; 
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+
   @media all and (min-width:768px) {
     position: absolute;
     top: 60px;
@@ -167,4 +172,15 @@
 .imagen-row {
   width: 20.6px;
   height: 24px;
+}
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+    transform: scale(3) rotate(-150deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
