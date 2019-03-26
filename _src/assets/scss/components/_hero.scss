@@ -1,7 +1,7 @@
 .hero {
     margin-bottom: 30px;
     height: 568px;
-
+ 
     @media all and (min-width: 768px) {
         height: 768px;
     }
@@ -76,9 +76,11 @@
     top: 470px;
     left: 50%;
     transform: translate(-50%);
+    display: none;
 
     @media all and (min-width: 768px) {
         top: 678px;
+        display: block;
     }
     @media all and (min-width: 1200px) {
         top: 710px;
